@@ -8,6 +8,7 @@
     <owners>Jivko Kolev, Tim Biermann</owners>
     <licenseUrl>http://www.nurgo-software.com/products/aquasnap</licenseUrl>
     <projectUrl>http://www.nurgo-software.com/products/aquasnap</projectUrl>
+	<packageSourceUrl>https://github.com/TimB87/choco-repo/tree/master/aquasnap</packageSourceUrl>
     <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/AquaSnap/AquaSnap.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>AquaSnap greatly enhances the way you can arrange windows on your Desktop. It gives you the possibility to snap windows to the edges or to the corners of the desktop, set windows to remain on top, stretch windows and more. It is freeware for personal single-monitor use only.
