@@ -6,7 +6,7 @@
     <title>AquaSnap</title>
     <authors>Nurgo Software</authors>
     <owners>Jivko Kolev, Tim Biermann</owners>
-    <licenseUrl>http://www.nurgo-software.com/products/aquasnap</licenseUrl>
+    <licenseUrl>https://www.nurgo-software.com/company/eula/80-aquasnap</licenseUrl>
     <projectUrl>http://www.nurgo-software.com/products/aquasnap</projectUrl>
 	<packageSourceUrl>https://github.com/TimB87/choco-repo/tree/master/aquasnap</packageSourceUrl>
     <iconUrl>https://raw.github.com/jivkok/Chocolatey-AutomaticPackages/master/AquaSnap/AquaSnap.png</iconUrl>
