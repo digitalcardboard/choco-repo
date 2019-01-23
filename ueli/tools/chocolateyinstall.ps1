@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/oliverschwendener/ueli/releases/download/v7.2.1/ueli-setup-7.2.1.exe'
+$url        = 'https://github.com/oliverschwendener/ueli/releases/download/v7.2.2/ueli-setup-7.2.2.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'ueli*'
 
-  checksum      = '4D1F06163D0A9EB8E050280BE8E8F92A6551F411EE36146D79846EDFAA659EE0'
+  checksum      = '8E23EE06F6B743735E2D9DA6EF6F2F701630F2E6F7590631FE65EADA25AB7BB5'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'

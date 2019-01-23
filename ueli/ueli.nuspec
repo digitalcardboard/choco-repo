@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ueli</id>
-    <version>7.2.1</version>
+    <version>7.2.2</version>
     <packageSourceUrl>https://github.com/TimB87/choco-repo</packageSourceUrl>
     <owners>Tim Biermann</owners>
     <title>ueli (Install)</title>
