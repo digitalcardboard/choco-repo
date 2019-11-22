@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/oliverschwendener/ueli/releases/download/v8.2.0/ueli-Setup-8.2.0.exe'
+$url        = 'https://github.com/oliverschwendener/ueli/releases/download/v8.3.0/ueli-Setup-8.3.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
