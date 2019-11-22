@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'ueli*'
 
-  checksum      = 'E2176504F23C394C3147BA2827E9DADC8D3139EDF2DF9F432498B0EA97B035B7'
+  checksum      = 'F7B2CFE47AD51EF8A07A934C0216A831EDB8BC2E9A28F0AD8E2F5A6BA5614435'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
