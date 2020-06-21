@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 
-$version = '1.23.6'
+$version = '1.23.10'
 $packageName = 'AquaSnap'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.nurgo-software.com/download/AquaSnap_1.23.8/AquaSnap.msi'
-$url64      = 'https://www.nurgo-software.com/download/AquaSnap_1.23.8/AquaSnap.msi'
+$url        = "https://www.nurgo-software.com/download/${packageName}_${version}/AquaSnap.msi"
+$url64      = "https://www.nurgo-software.com/download/${packageName}_${version}/AquaSnap.msi"
 
 $packageArgs = @{
   packageName   = $packageName
@@ -15,9 +15,9 @@ $packageArgs = @{
 
   softwareName  = 'AquaSnap*'
 
-  checksum      = '5A3E686C6FECFB30D6657572CA1C09CC32F1EC7B81BE2A3CD34FC0E4396CACFC'
+  checksum      = 'C0E5FADA957286F2DB14C67F04D2AF85BC6AF36E166548D655F0565FEF1C2BE5'
   checksumType  = 'sha256'
-  checksum64    = '5A3E686C6FECFB30D6657572CA1C09CC32F1EC7B81BE2A3CD34FC0E4396CACFC'
+  checksum64    = 'C0E5FADA957286F2DB14C67F04D2AF85BC6AF36E166548D655F0565FEF1C2BE5'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
