@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$ueliversion = "8.7.1"
+$ueliversion = "8.8.0"
 $url        = "https://github.com/oliverschwendener/ueli/releases/download/v$ueliversion/ueli-Setup-$ueliversion.exe"
 
 $packageArgs = @{
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'ueli*'
 
-  checksum      = '8D3F695068816EC4021B036A5334A10E357B2CCA653012DAD8BB1E817F0E9C8B'
+  checksum      = 'F60BF65F2329F8815A34F6A5BB79AF5E1015A20A72574BBBECBDA193A0D9A13F'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
