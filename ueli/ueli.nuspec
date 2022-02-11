@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <version>8.18.1</version>
+    <version>8.19.0</version>
     <id>ueli</id>
     <packageSourceUrl>https://github.com/TimB87/choco-repo</packageSourceUrl>
     <owners>Tim Biermann, digitalcardboard</owners>
